@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Galeria de Fotos</title>
+        <title>Página Inicial</title>
     </head>
     <body>
         <?php
