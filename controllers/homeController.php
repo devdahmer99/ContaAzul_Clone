@@ -3,6 +3,11 @@ class homeController extends controller {
 
     public function __construct() {
         parent::__construct();
+        $user = new Users();
+        if($user->isLogged() == false) {
+            header("Location: ".BASE_URL."login");
+            exit;
+        }
     }
 
     public function index() {
